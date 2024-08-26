@@ -9,8 +9,8 @@ const int pin_dio0 = 2;  // Digital I/O 0
 
 const int syncword = 2314;
 const int codingRate = 8;
-const int spreadingFactor = 7;
-const int bandwidth = 62.5E3;
-const int txPower = 10; // between -3 and 17dbm
+const int spreadingFactor = 8;
+const int bandwidth = 125E3;
+const int txPower = 17; // between -3 and 17dbm
 
 #endif

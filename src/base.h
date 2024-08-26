@@ -23,8 +23,8 @@ void baseSetup()
             ;
     }
 
-    LoRa.setSyncWord(syncword);
-    LoRa.setCodingRate4(7);
+    // LoRa.setSyncWord(syncword);
+    LoRa.setCodingRate4(codingRate);
     LoRa.setSpreadingFactor(spreadingFactor);
     LoRa.setSignalBandwidth(bandwidth);
 

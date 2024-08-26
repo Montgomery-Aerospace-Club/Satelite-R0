@@ -22,7 +22,7 @@ void payloadSetup()
             ; // Halt if initialization fails
     }
 
-    LoRa.setSyncWord(syncword);
+    // LoRa.setSyncWord(syncword);
     LoRa.setCodingRate4(codingRate);
     LoRa.setSpreadingFactor(spreadingFactor);
     LoRa.setSignalBandwidth(bandwidth);
